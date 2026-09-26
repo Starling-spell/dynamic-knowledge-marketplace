@@ -61,4 +61,4 @@ genlayer receipt <deployment-tx> --status FINALIZED
 genlayer code <contract-address>
 ```
 
-The pinned GenVM runner is on the first contract line. Direct tests exercise state guards and mocked acquisition/LLM results; they do not exercise independent validators. See [PROOF_MATRIX.md](PROOF_MATRIX.md) for test intent and [LIVE_PROOFS.md](LIVE_PROOFS.md) for finalized StudioNet results.
+The pinned GenVM runner is on the first contract line. Direct tests exercise state guards and mocked acquisition/LLM results; they do not exercise independent validators. The [corrected StudioNet contract](https://explorer-studio.genlayer.com/address/0xe3afE422EFe1aB4971E6045c5852A7Ff7bFD7c50), [PROOF_MATRIX.md](PROOF_MATRIX.md), and [LIVE_PROOFS.md](LIVE_PROOFS.md) document the finalized positive, semantic-failure, and hash-mismatch results.
