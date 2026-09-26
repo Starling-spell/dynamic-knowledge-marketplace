@@ -1,0 +1,1 @@
+At laboratory receipt, log the sample ID, receipt time, and condition. Quarantine a sample with no ID.

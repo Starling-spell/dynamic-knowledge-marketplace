@@ -1,0 +1,1 @@
+Attach a label with site, date, collector, and sample ID before transport. At the laboratory, log the ID, receipt time, and condition. Quarantine missing-ID samples.
