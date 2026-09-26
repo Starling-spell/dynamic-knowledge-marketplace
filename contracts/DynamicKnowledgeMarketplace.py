@@ -123,7 +123,7 @@ class DynamicKnowledgeMarketplace(gl.Contract):
     def propose_transform(self, space_id: str, transform_id: str, operation: str,
                           input_a: str, input_b: str, output_id: str,
                           output_url: str, output_hash: str, category: str,
-                          focus: str) -> None:
+                          focus: str = "") -> None:
         if (space_id not in self.spaces or not valid_id(transform_id) or
                 key(space_id, transform_id) in self.transformations or
                 not valid_id(output_id) or key(space_id, output_id) in self.assets):

@@ -24,7 +24,7 @@ def setup(direct_vm, direct_deploy, direct_alice, output=GOOD, expected_output=N
     direct_vm.mock_web(r".*out\.example/merged", {"status": 200, "body": output})
     contract.propose_transform("samples", "merge-1", "MERGE", "field", "lab",
                                "combined", "https://out.example/merged",
-                               expected_output or sha(output), "GUIDE", "")
+                               expected_output or sha(output), "GUIDE")
     return contract
 
 
